@@ -1,0 +1,21 @@
+{
+  "name": "webpack-federated-modules-poc",
+  "version": "0.0.1",
+  "description": "A setup using webpack federated modules.",
+  "contributors": [
+    "github.com/JeremyRH"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "ISC",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "./packages/*"
+  ],
+  "volta": {
+    "node": "14.14.0",
+    "yarn": "1.22.10"
+  }
+}
